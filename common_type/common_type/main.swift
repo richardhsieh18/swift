@@ -17,6 +17,6 @@ z = -128
 
 var a:UInt8
 
-
 a = 255
 //a = -1  => error
+
