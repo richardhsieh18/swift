@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "9cc3d1a85abb7f0f935a582e7b2c33f5"
+build_time: [548319998, 339784000]
+inputs:
+  "/Users/chang/Desktop/swift/demo3/demo3/main.swift": [548315089, 0]
