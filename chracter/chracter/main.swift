@@ -1,6 +1,23 @@
-var ch:Character
-ch = "A"
+print("請輸入任何一個字元，我來告訴你它的ASCII內碼")
 
-let s = String(ch).unicodeScalars
+let x:String
+x = readLine()!
 
-print(s[s.startIndex].value)
+let xc:Character
+xc = Character(x)
+
+var uc:UnicodeScalar
+uc = UnicodeScalar(String(x))!
+
+print("\(xc)\(uc.value)")
+
+//會噴錯
+//var num:Int = Int(readLine()!)!
+//print(num)
+
+//var uc:UnicodeScalar
+//
+//uc = UnicodeScalar(num)!
+//
+//print("\(uc)")
+

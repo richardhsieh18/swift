@@ -1,12 +1,21 @@
-//
-//  main.swift
-//  loop_counter
-//
-//  Created by chang on 2017/5/18.
-//  Copyright © 2017年 changname. All rights reserved.
-//
 
-import Foundation
+print("我有點餓")
 
-print("Hello, World!")
 
+//for counter in 1...5 {
+//print("真的嗎\(counter)")
+//}
+
+var sum:Int16 = 0
+for counter in 1...100 {
+    sum = sum + counter
+}
+print(sum)
+
+//var odd:Int16 = 0
+//for counter in 1...100 {
+//    if counter % 3 == 0 {
+//    odd = odd + counter
+//    }
+//}
+//print(odd)
