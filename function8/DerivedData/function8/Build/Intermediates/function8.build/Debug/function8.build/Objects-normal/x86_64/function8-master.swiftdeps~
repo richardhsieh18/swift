@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b8a1fce2028722c011d45b92b51e7b57"
+build_time: [548834556, 750556000]
+inputs:
+  "/Users/john2/Desktop/function8/function8/main.swift": [548834544, 0]
+  "/Users/john2/Desktop/function8/function8/library.swift": [548833708, 0]
