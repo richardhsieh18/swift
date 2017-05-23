@@ -17,6 +17,7 @@ func love10()->Void{
 love10()
 love10()
  */
+/*
 
 func love_times(times:Int) -> Void {
     for i in 1...times{
@@ -62,3 +63,11 @@ if h > 12 {
 print(date)
 print(h)
 
+*/
+
+//DateFormatter
+let date = NSDate()
+var dateFormatter = DateFormatter()
+dateFormatter.dateFormat = "hh:mm:ss MM-dd-yyyy"
+var dateString = dateFormatter.string(from: date as Date)
+print(dateString)
