@@ -48,6 +48,12 @@ struct cat {
         sleep(3)
     
     }
+    
+    func meow(times: Int) {
+        for _ in 1...times{
+            print("meow")
+        }
+    }
 }
 
 
@@ -78,7 +84,7 @@ print("客人是\(level_customer)級的所以要賣\(sale_price)")
 
 print("摸一下貓頭")
 c1.meow()
-
+c1.meow(times: 3)
 
 print("狗的")
 print("=======XXX寵物店===============")
