@@ -25,12 +25,38 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
 
     @IBAction func login(_ xxx: UIButton) {
-        let account_input = self.account.text
-        let password_input = self.password.text
         
-        if account_input == "john"{
+        var bundle:Bundle
+        bundle = Bundle.main
+        
+        var data_path:String
+        data_path = bundle.path(forResource: "members", ofType: "txt")!
+        
+        var content:String!
+        do{
+            content = try String.init(contentsOfFile: data_path, encoding: String.Encoding.utf8)
+            print(content)
+        }catch{
+            
+        }
+        
+        let lines:[String] = content.components(separatedBy: "\n")
+        var is_member = false
+        for line in lines{
+            let columns = line.components(separatedBy: ",")
+            print(columns)
+            if columns[1] == self.account.text && columns[2] == self.password.text{
+                is_member = true
+            }
+        }
+        
+        //let account_input = self.account.text
+        //let password_input = self.password.text
+        
+        if is_member{
+        //if account_input == "john"{
             print("請輸入密碼")
-            if password_input == "1234"{
+            //if password_input == "1234"{
                 print("歡迎")
                 //self.performSegue(withIdentifier: "go", sender: xxx) 改成另一種轉場效果
                 let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -47,9 +73,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
                 pop.addAction(button)
                 self.present(pop, animated: true, completion: nil)
             }
-        }else{
-            print("無此帳號")
-        }
     }
     
     

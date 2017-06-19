@@ -7,15 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TransitionManager.h"
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIView *account;
-@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (strong, nonatomic) IBOutlet UITextField *account;
+
+@property (strong, nonatomic) IBOutlet UITextField *password;
+//@property (strong, nonatomic)TransitionManager* xyz;
+
 
 - (IBAction)login:(UIButton *)sender;
-- (IBAction)reset:(UIButton *)sender;
 
+- (IBAction)reset:(UIButton *)sender;
 
 @end
 

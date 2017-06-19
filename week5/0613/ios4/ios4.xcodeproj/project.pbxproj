@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0457CC831EF154FB00686E23 /* members.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0457CC821EF154FB00686E23 /* members.txt */; };
 		047AEDFF1EE63A2C00983FEC /* appimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047AEDFE1EE63A2C00983FEC /* appimage.jpg */; };
 		04E3653E1EE54C9700411D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3653D1EE54C9700411D98 /* AppDelegate.swift */; };
 		04E365401EE54C9700411D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3653F1EE54C9700411D98 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0457CC821EF154FB00686E23 /* members.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = members.txt; sourceTree = "<group>"; };
 		047AEDFE1EE63A2C00983FEC /* appimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appimage.jpg; sourceTree = "<group>"; };
 		04E3653A1EE54C9700411D98 /* ios4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3653D1EE54C9700411D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,14 +60,15 @@
 		04E3653C1EE54C9700411D98 /* ios4 */ = {
 			isa = PBXGroup;
 			children = (
+				0457CC821EF154FB00686E23 /* members.txt */,
 				047AEDFE1EE63A2C00983FEC /* appimage.jpg */,
 				04E3653D1EE54C9700411D98 /* AppDelegate.swift */,
 				04E3653F1EE54C9700411D98 /* ViewController.swift */,
+				04EA3B9A1EE63FCA00CB0707 /* ViewController2.swift */,
 				04E365411EE54C9700411D98 /* Main.storyboard */,
 				04E365441EE54C9700411D98 /* Assets.xcassets */,
 				04E365461EE54C9700411D98 /* LaunchScreen.storyboard */,
 				04E365491EE54C9700411D98 /* Info.plist */,
-				04EA3B9A1EE63FCA00CB0707 /* ViewController2.swift */,
 			);
 			path = ios4;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E365481EE54C9700411D98 /* LaunchScreen.storyboard in Resources */,
+				0457CC831EF154FB00686E23 /* members.txt in Resources */,
 				04E365451EE54C9700411D98 /* Assets.xcassets in Resources */,
 				04E365431EE54C9700411D98 /* Main.storyboard in Resources */,
 				047AEDFF1EE63A2C00983FEC /* appimage.jpg in Resources */,
